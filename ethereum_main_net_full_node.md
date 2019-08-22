@@ -1,13 +1,16 @@
 # Machine
+This installation uses the AWS i3.xlarge instance because it has a solid state hard drive which is large enough
 - i3.xlarge ($0.374 per Hour)
 - 1 x 950 NVMe SSD Storage
 - 4 CPU
 - 30.5 GB RAM
 
 # Software (OS)
+```
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install -y build-essential
+```
 
 # Auxillary hardware
 View NVMe volume (which is not yet mounted/mapped/formatted)
